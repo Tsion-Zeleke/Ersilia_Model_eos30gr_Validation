@@ -1,5 +1,5 @@
-# model-validation-example
-This is an example of the model validation repository for the Outreachy contributors 2024
+# model-validation-eos30gr-and-eos9tyg
+This is a model validation repository for the Outreachy contributors 2024. 
 
 ## Repository organisation
 The repository is organised in folders:
@@ -9,11 +9,47 @@ The repository is organised in folders:
 - '/figures' contains the plots I have produced during the model validation process
 - 'requirements.txt' lists all the required packages to run the notebooks in this repository. If possible I also specify the version of the package I am using.
 
-## How to use this repository
-This repository is just a guideline, it does not contain any real example, hence some folders might not be existing yet. There are mostly placeholders to inspire you.
+## Getting Started
+- Install all prerequists required to run ersilia models from [here](https://ersilia.gitbook.io/ersilia-book/ersilia-model-hub/installation)
+- Clone the Ersilia Repo [here](https://ersilia.gitbook.io/ersilia-book/ersilia-model-hub/installation)
+- Activate the env
+  ```console
+  conda activate <env-name>
+  ```
+### 1. Use Ersilia Hub to run the model
+  - Fetch model
+  ```console
+     ersilia -v fetch eos9tyg
+  ```
+  - Serve model
+ ```console
+     ersilia serve eos3b5e
+  ```
+   - Serve model
+ ```console
+     ersilia serve eos3b5e
+  ```
+    - run prediction on model
+        - For single input
+         ```console
+          ersilia -v api run -i "CCCC"
+         ```
+        - Running from a csv file
+        ```console
+        ersilia api run -i input.csv -o output.csv
+         ```
+### 2. Use Docker
+    - Pull the image
+    ```console
+    docker pull ersiliaos/eos4wt0:latest
+    ```
+     - Serve and run model
+     ```console
+     ersilia serve eos4wt0 
+    ersilia -v api run -i "CCCC"
+    ```
 
-Use the notebooks as they have been defined, there is a code block with instructions of what step should be done there. Remember to install and import all the necessayr packages. Do not use installs from the Notebook directly, create a conda environment and install the packages in that environment. 
-
+### 3. Use this guide inorder to run model as a python funtion [here](https://github.com/ersilia-os/ersilia/blob/master/notebooks/output-python-api.ipynb)
 ## Where to get more help:
 - Read Outreachy's contribution [tasks](https://ersilia.gitbook.io/ersilia-book/contributors/internships/outreachy-summer-2024)
 - Read Ersilia's [documentation](https://ersilia.gitbook.io/ersilia-book)
