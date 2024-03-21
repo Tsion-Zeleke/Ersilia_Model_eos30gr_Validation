@@ -1,0 +1,67 @@
+13:26:46 | DEBUG    | Is fetched: True
+13:26:46 | DEBUG    | Schema available in /root/eos/dest/eos30gr/api_schema.json
+13:26:46 | DEBUG    | Setting AutoService for eos30gr
+13:26:46 | DEBUG    | No service class provided, deciding automatically
+13:26:46 | DEBUG    | Service class file exists in folder /root/eos/repository/eos30gr/20240321111445/service_class.txt
+13:26:46 | DEBUG    | Service class: pulled_docker
+13:26:46 | DEBUG    | Using port 36877
+13:26:46 | DEBUG    | Starting Docker Daemon service
+13:26:46 | DEBUG    | Creating temporary folder /tmp/ersilia-0mnt0tt7 and mounting as volume in container
+13:26:46 | INFO     | Done with initialization!
+13:26:46 | DEBUG    | Cleaning temp dir
+13:26:46 | DEBUG    | Flushing temporary directory /tmp/ersilia-0mnt0tt7
+13:26:46 | DEBUG    | Silencing docker containers if necessary
+13:26:46 | DEBUG    | It is inside docker
+13:26:46 | DEBUG    | Stopping and removing container
+13:26:46 | DEBUG    | Stopping all containers related to model eos30gr
+13:26:46 | DEBUG    | Stopping and removing container eos30gr_e232
+13:26:46 | DEBUG    | Container stopped
+13:26:46 | DEBUG    | Container removed
+13:26:46 | DEBUG    | Closing session /root/eos/session.json
+13:26:46 | DEBUG    | Opening session /root/eos/session.json
+13:26:46 | DEBUG    | Cleaning processes before serving
+13:26:46 | DEBUG    | Cleaning [] processes
+13:26:46 | DEBUG    | Cleaning temp dir
+13:26:46 | DEBUG    | Cleaning temp dir
+13:26:46 | DEBUG    | Silencing docker containers if necessary
+13:26:46 | DEBUG    | It is inside docker
+13:26:46 | DEBUG    | Stopping and removing container
+13:26:46 | DEBUG    | Stopping all containers related to model eos30gr
+13:26:46 | DEBUG    | Stopping all containers related to model eos30gr
+13:26:46 | DEBUG    | Trying to run container
+13:26:47 | DEBUG    | Serving container eos30gr_6899
+13:26:47 | DEBUG    | Running container c0273244079ff075459f6ad2681722bcac289e2e5ce8fe11510b050f5eda72ee
+13:26:47 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:48 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:49 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:50 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:51 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:52 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:53 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:54 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:55 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:56 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:57 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:58 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:26:59 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:27:00 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:27:01 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:27:02 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:27:03 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:27:04 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:27:05 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:27:06 | DEBUG    | Container in http://0.0.0.0:36877 is not ready yet
+13:27:07 | DEBUG    | Getting APIs
+13:27:07 | DEBUG    | ['run']
+13:27:07 | DEBUG    | Getting session from /root/eos/session.json
+🚀 Serving model eos30gr: deepherg
+
+   URL: http://0.0.0.0:36877
+   PID: -1
+   SRV: pulled_docker
+
+👉 To run model:
+   - run
+
+💁 Information:
+   - info
