@@ -1,0 +1,53 @@
+11:17:21 | WARNING  | Lake manager 'isaura' is not installed! We strongly recommend installing it to store calculations persistently
+11:17:21 | ERROR    | Isaura is not installed! Calculations will be done without storing and reading from the lake, unfortunately.
+11:17:23 | DEBUG    | Is fetched: True
+11:17:23 | DEBUG    | Schema available in /root/eos/dest/eos30gr/api_schema.json
+11:17:23 | DEBUG    | Setting AutoService for eos30gr
+11:17:23 | DEBUG    | No service class provided, deciding automatically
+11:17:23 | DEBUG    | Service class file exists in folder /root/eos/repository/eos30gr/20240321111445/service_class.txt
+11:17:23 | DEBUG    | Service class: pulled_docker
+11:17:23 | DEBUG    | Using port 47551
+11:17:23 | DEBUG    | Starting Docker Daemon service
+11:17:23 | DEBUG    | Creating temporary folder /tmp/ersilia-bfrotbx2 and mounting as volume in container
+11:17:23 | INFO     | Done with initialization!
+11:17:23 | DEBUG    | Cleaning temp dir
+11:17:23 | DEBUG    | Flushing temporary directory /tmp/ersilia-bfrotbx2
+11:17:23 | DEBUG    | Silencing docker containers if necessary
+11:17:23 | DEBUG    | It is inside docker
+11:17:23 | DEBUG    | Stopping and removing container
+11:17:23 | DEBUG    | Stopping all containers related to model eos30gr
+11:17:23 | DEBUG    | Closing session /root/eos/session.json
+11:17:23 | DEBUG    | Opening session /root/eos/session.json
+11:17:23 | DEBUG    | Cleaning processes before serving
+11:17:23 | DEBUG    | Cleaning [] processes
+11:17:23 | DEBUG    | Cleaning temp dir
+11:17:23 | DEBUG    | Cleaning temp dir
+11:17:23 | DEBUG    | Silencing docker containers if necessary
+11:17:23 | DEBUG    | It is inside docker
+11:17:23 | DEBUG    | Stopping and removing container
+11:17:23 | DEBUG    | Stopping all containers related to model eos30gr
+11:17:23 | DEBUG    | Stopping all containers related to model eos30gr
+11:17:23 | DEBUG    | Trying to run container
+11:17:24 | DEBUG    | Serving container eos30gr_e232
+11:17:24 | DEBUG    | Running container e51cb47238469e6a783f65e1e3bf156a71dd59a91e4a02fdc21a9fac6bf390c6
+11:17:24 | DEBUG    | Container in http://0.0.0.0:47551 is not ready yet
+11:17:25 | DEBUG    | Container in http://0.0.0.0:47551 is not ready yet
+11:17:26 | DEBUG    | Container in http://0.0.0.0:47551 is not ready yet
+11:17:27 | DEBUG    | Container in http://0.0.0.0:47551 is not ready yet
+11:17:28 | DEBUG    | Container in http://0.0.0.0:47551 is not ready yet
+11:17:29 | DEBUG    | Container in http://0.0.0.0:47551 is not ready yet
+11:17:30 | DEBUG    | Container in http://0.0.0.0:47551 is not ready yet
+11:17:31 | DEBUG    | Getting APIs
+11:17:31 | DEBUG    | ['run']
+11:17:31 | DEBUG    | Getting session from /root/eos/session.json
+🚀 Serving model eos30gr: deepherg
+
+   URL: http://0.0.0.0:47551
+   PID: -1
+   SRV: pulled_docker
+
+👉 To run model:
+   - run
+
+💁 Information:
+   - info

@@ -1,0 +1,110 @@
+⬇️  Fetching model eos30gr: deepherg
+11:14:33 | DEBUG    | Initialized with URL: None
+11:14:33 | DEBUG    | Starting fetching procedure
+11:14:33 | DEBUG    | Trying to find an available URL where the model is hosted
+11:14:35 | DEBUG    | No hosted URL found for this model
+11:14:35 | DEBUG    | There is no hosted URL available for this model
+11:14:35 | DEBUG    | Image ersiliaos/eos30gr:latest is available locally
+11:14:35 | DEBUG    | Fetching from DockerHub
+11:14:35 | DEBUG    | Image ersiliaos/eos30gr:latest is available locally
+Requested image eos30gr is available locally. Do you still want to fetch it? [Y/n]
+11:14:40 | DEBUG    | Deleting locally available image ersiliaos/eos30gr:latest
+Untagged: ersiliaos/eos30gr:latest
+Untagged: ersiliaos/eos30gr@sha256:4032df6827d747f84f534a17ca394018718b99700ff7d2b0ecbfea9a45d3ef9b
+11:14:41 | DEBUG    | The docker image ersiliaos/eos30gr:latest exists in DockerHub
+11:14:41 | DEBUG    | Pulling image ersiliaos/eos30gr:latest from DockerHub...
+11:14:41 | DEBUG    | Trying to pull image ersiliaos/eos30gr
+11:14:43 | WARNING  | Conventional pull did not work, Ersilia is now forcing linux/amd64 architecture
+latest: Pulling from ersiliaos/eos30gr
+Digest: sha256:4032df6827d747f84f534a17ca394018718b99700ff7d2b0ecbfea9a45d3ef9b
+Status: Image is up to date for ersiliaos/eos30gr:latest
+docker.io/ersiliaos/eos30gr:latest
+11:14:45 | DEBUG    | Size of image 2016.2424783706665 MB
+11:14:45 | DEBUG    | Registering model eos30gr in the file system
+11:14:45 | DEBUG    | /root/eos/dest/eos30gr
+11:14:45 | DEBUG    | /root/eos/dest/eos30gr/from_dockerhub.json
+11:14:45 | DEBUG    | Writing service class pulled_docker /root/eos/repository/eos30gr/20240321111445/service_class.txt
+11:14:45 | DEBUG    | Writing APIs
+11:14:45 | DEBUG    | Using port 55891
+11:14:45 | DEBUG    | Starting Docker Daemon service
+11:14:45 | DEBUG    | Creating temporary folder /tmp/ersilia-0d4as6lo and mounting as volume in container
+11:14:45 | DEBUG    | Stopping all containers related to model eos30gr
+11:14:46 | DEBUG    | Stopping and removing container eos30gr_38aa
+11:14:56 | DEBUG    | Container stopped
+11:14:56 | DEBUG    | Container removed
+11:14:56 | DEBUG    | Trying to run container
+11:14:56 | DEBUG    | Serving container eos30gr_57ff
+11:14:56 | DEBUG    | Running container 4ad43deb3a10968a8a27ebf46d78ead0f58b584294c9671935a7623d54b6f280
+11:14:56 | DEBUG    | Container in http://0.0.0.0:55891 is not ready yet
+11:14:57 | DEBUG    | Container in http://0.0.0.0:55891 is not ready yet
+11:14:58 | DEBUG    | Container in http://0.0.0.0:55891 is not ready yet
+11:14:59 | DEBUG    | Container in http://0.0.0.0:55891 is not ready yet
+11:15:00 | DEBUG    | Container in http://0.0.0.0:55891 is not ready yet
+11:15:01 | DEBUG    | Container in http://0.0.0.0:55891 is not ready yet
+11:15:02 | DEBUG    | Getting APIs
+11:15:02 | DEBUG    | Getting them using info endpoint
+11:15:02 | DEBUG    | Using URL: http://0.0.0.0:55891/info
+11:15:03 | DEBUG    | Status code: 200
+11:15:03 | DEBUG    | Writing file /root/eos/repository/eos30gr/20240321111445/apis_list.txt
+11:15:03 | DEBUG    | ['run']
+11:15:03 | DEBUG    | Stopping and removing container
+11:15:03 | DEBUG    | Stopping all containers related to model eos30gr
+11:15:03 | DEBUG    | Stopping and removing container eos30gr_57ff
+11:15:13 | DEBUG    | Container stopped
+11:15:13 | DEBUG    | Container removed
+916d8f4a6e72efa3f4a7457d2fb1b45d230dc470d60aaeec2c5d0f05883fc782
+0b4d5af1-cf4f-4d2d-906a-ec7fb3ade414
+0fba5c1b7ac8a8413677e3fe6d65db80203428cda1e3d6769b6a7bed3d50d702
+11b68759-f228-428f-81a5-d088c45d48f5
+075c83cded9b8db48904bbc1ee1935e247bac63c6fbbbf7607165e30835231ab
+b5f70098-e250-42b0-9ff3-91a009cad796
+11:15:16 | DEBUG    | Running standard CSV example
+11:15:16 | DEBUG    | /root/eos/dest/eos30gr/example_standard_input.csv
+11:15:16 | DEBUG    | /root/eos/dest/eos30gr/example_standard_output.csv
+11:15:16 | DEBUG    | Usage: ersilia [OPTIONS] COMMAND [ARGS]...
+
+  🦠 Welcome to Ersilia! 💊
+
+Options:
+  --version      Show the version and exit.
+  -v, --verbose  Show logging on terminal when running commands.
+  -s, --silent   Do not echo any progress message.
+  --help         Show this message and exit.
+
+Commands:
+  api      Run API on a served model
+  auth     Log in to ersilia to enter contributor mode.
+  card     Get model info card
+  catalog  List a catalog of models
+  clear    Clear ersilia
+  close    Close model
+  current  Get identifier of current model
+  delete   Delete model from local computer
+  example  Generate input examples for the model of interest
+  fetch    Fetch model from Ersilia Model Hub
+  info     Get model information
+  run      Run a served model
+  sample   Sample inputs and model identifiers
+  serve    Serve model
+  test     Test a model
+
+11:15:16 | DEBUG    | No need to use Conda!
+11:15:16 | DEBUG    | ersilia serve eos30gr
+🚀 Serving model eos30gr: deepherg
+
+   URL: http://0.0.0.0:54617
+   PID: -1
+   SRV: pulled_docker
+
+👉 To run model:
+   - run
+
+💁 Information:
+   - info
+11:15:27 | DEBUG    | ersilia example -n 3 -c -f /root/eos/dest/eos30gr/example_standard_input.csv
+11:15:31 | DEBUG    | ersilia -v run -i /root/eos/dest/eos30gr/example_standard_input.csv -o /root/eos/dest/eos30gr/example_standard_output.csv > /root/eos/dest/eos30gr/standard_run.log 2>&1
+11:15:54 | DEBUG    | ersilia close
+⛔ Model eos30gr closed
+11:16:08 | DEBUG    | File /root/eos/dest/eos30gr/example_standard_output.csv created successfully!
+11:16:08 | DEBUG    | Removing log file: /root/eos/dest/eos30gr/standard_run.log
+👍 Model eos30gr fetched successfully!
