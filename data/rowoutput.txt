@@ -1,0 +1,25 @@
+[{
+    "input": {
+        "key": "YZQZXLROYFNFQE-QTGUNEKASA-N",
+        "input": "CN1CC[C@]23CCCC[C@H]2[C@H]1Cc1ccc(Oc2ccccc2F)cc13",
+        "text": "CN1CC[C@]23CCCC[C@H]2[C@H]1Cc1ccc(Oc2ccccc2F)cc13"
+    },
+    "output": {
+        "outcome": [
+            0.8811881188118812
+        ]
+    }
+}
+{
+    "input": {
+        "key": "PRGIOMDFWSHPTC-QPEQYQDCSA-N",
+        "input": "O=C(CN1C(=O)/C(=C/c2ccco2)SC1=S)Nc1ccc(C(=O)O)c(O)c1",
+        "text": "O=C(CN1C(=O)/C(=C/c2ccco2)SC1=S)Nc1ccc(C(=O)O)c(O)c1"
+    },
+    "output": {
+        "outcome": [
+            0.3594059405940594
+        ]
+    }
+}
+]

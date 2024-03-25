@@ -1,0 +1,11 @@
+smiles
+CCCCNC(=S)N/N=C/c1sccc1C
+Cn1c(SCc2nc(-c3cccs3)no2)nnc1C1CCCCC1
+O=C(O)CC(NC(=O)c1cnccn1)c1ccccc1Cl
+O=S(=O)(c1ccccc1)N1CCN(c2noc3cccc(Cl)c23)CC1
+CCC[C@@H](C)N(c1cc(Cl)ccc1CO)S(=O)(=O)c1ccc(C)cc1
+Cn1c(=O)c2c(nc(N3CCC[C@@H](N)C3)n2Cc2cc(F)ccc2Cl)c2ccc(C(=O)O)cc21
+CNC(=O)c1cccc2c1nc(-c1ccccc1O)n2Cc1ccccc1
+C[C@]12CCC3C(CC[C@@H]4C[C@@H](S)CC[C@]34C)C1=CC[C@@H]2C1=CC(=O)OC1
+CC1=C(C(=O)OCc2ccccc2)C(c2ccc(-c3ccccc3C)cc2)NC(=S)N1CCCCCc1nnn[nH]1
+CC(C)Cc1cc(C(=O)NCc2cccnc2)no1
