@@ -1,4 +1,5 @@
 ### Ersilia Model eos30gr Validation
+   - eos30gr is a model with prediction of hERG blockers of small molecules
 #### - The following repo contains the model bias evaluation and debugging folder for the model eos30gr
 #idetified issues and details steps taken are listed in the [debugging folder](https://github.com/Tsion-Zeleke/Ersilia_Model_eos30gr_Validation/tree/main/notebooks/Debugging%20model%20eos30gr) issue includes:
  - model outputs null when running usnig ersilia HUB log files and outputcan be found [here]()
