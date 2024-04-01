@@ -1,0 +1,50 @@
+DrugBank ID,Smiles,Name,ATC category,Predicted negative probability,Predicted positive probability,Predicted positive classification,Predicted negative classification
+DB11581,Clc1ccc(cc1)C=1CC(CCC=1CN1CCN(CC1)c1cc(Oc2cc3cc[nH]c3nc2)c(cc1)C(=O)NS(=O)(=O)c1cc([N+](=O)[O-])c(NCC2CCOCC2)cc1)(C)C,Venetoclax,Other antineoplastic agents,1.65E-01,0.835,1,0
+DB11363,O1CCN(CC1)C1CCN(CC1)c1cc2c(cc1CC)C(=O)c1c([nH]c3cc(ccc13)C#N)C2(C)C,Alectinib,Protein kinase inhibitors,5.87E-02,0.941,1,0
+DB09330,O(C)c1cc(N(CCN(C)C)C)c(NC(=O)C=C)cc1Nc1nc(ccn1)-c1c2c(n(c1)C)cccc2,Osimertinib,Protein kinase inhibitors,1.29E-01,0.871,1,0
+DB09143,P(O)(O)(O)=O.P(O)(O)(O)=O.FC(F)(F)Oc1ccc(cc1)-c1cccc(C(O)=Nc2ccc(nc2)N2C[C@H](O[C@H](C2)C)C)c1C,Sonidegib,Other antineoplastic agents,6.57E-02,0.934,1,0
+DB09079,OC/1=Nc2cc(ccc2\C\1=C(\Nc1ccc(N(C(=O)CN2CCN(CC2)C)C)cc1)/c1ccccc1)C(OC)=O,Nintedanib,Protein kinase inhibitors,3.39E-01,0.661,1,0
+DB09063,Clc1cnc(nc1Nc1ccccc1S(=O)(=O)C(C)C)Nc1cc(C)c(cc1OC(C)C)C1CCNCC1,Ceritinib,Protein kinase inhibitors,3.89E-01,0.611,1,0
+DB09053,O(c1ccc(cc1)-c1nn(c2ncnc(N)c12)[C@@H]1CCCN(C1)C(=O)C=C)c1ccccc1,Ibrutinib,Protein kinase inhibitors,2.71E-01,0.729,1,0
+DB09031,P(OCCCCCCCCCCCCCCCC)(OCC[N+](C)(C)C)(=O)[O-],Miltefosine,Other antineoplastic agents,1.37E-01,0.863,1,0
+DB08916,Clc1cc(Nc2ncnc3c2cc(NC(=O)\C=C\CN(C)C)c(O[C@H]2CCOC2)c3)ccc1F,Afatinib,Protein kinase inhibitors,2.00E-01,0.8,1,0
+DB08912,s1c(c(nc1C(C)(C)C)-c1cccc(NS(=O)(=O)c2c(F)cccc2F)c1F)-c1nc(ncc1)N,Dabrafenib,Protein kinase inhibitors,4.27E-01,0.573,1,0
+DB08901,FC(F)(F)c1cc(NC(=O)c2cc(C#Cc3n4N=CC=Cc4nc3)c(cc2)C)ccc1CN1CCN(CC1)C,Ponatinib,Protein kinase inhibitors,4.81E-02,0.952,1,0
+DB08896,Clc1ccc(NC(=O)Nc2ccc(Oc3cc(ncc3)C(=O)NC)cc2F)cc1C(F)(F)F,Regorafenib,Protein kinase inhibitors,4.62E-01,0.538,1,0
+DB08881,Clc1ccc(cc1)-c1cc2c([nH]cc2C(=O)c2c(F)c(NS(=O)(=O)CCC)ccc2F)nc1,Vemurafenib,Protein kinase inhibitors,3.48E-01,0.652,1,0
+DB08877,[nH]1c2ncnc(c2cc1)-c1cn(nc1)[C@H](CC#N)C1CCCC1,Ruxolitinib,Protein kinase inhibitors,2.97E-01,0.703,1,0
+DB08868,OCC(N)(CCc1ccc(cc1)CCCCCCCC)CO,Fingolimod,Immunosuppressants,1.98E-01,0.802,1,0
+DB08865,Clc1c([C@H](Oc2cc(cnc2N)-c2cn(nc2)C2CCNCC2)C)c(Cl)ccc1F,Crizotinib,Protein kinase inhibitors,5.82E-02,0.942,1,0
+DB08828,Clc1ccc(NC(=O)c2ccc(S(=O)(=O)C)cc2Cl)cc1-c1ncccc1,Vismodegib,Other antineoplastic agents,3.43E-01,0.657,1,0
+DB06825,Oc1ccc(cc1)C[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H]1NC(=O)CC1)Cc1nc[nH]c1)Cc1c2c([nH]c1)cccc2)CO)C(=O)N[C@H](Cc1c2c([nH]c1)cccc2)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N1CCC[C@H]1C(=O)NCC(=O)N,Triptorelin,Endocrine therapy,7.56E-06,1,1,0
+DB06810,O1[C@H](C)[C@@H](O)[C@H](O[C@@H]2O[C@H](C)[C@@H](O)[C@H](O)C2)C[C@@H]1Oc1cc2c(c(O)c1C)c(O)c1c(C[C@@H]([C@H](OC)C(=O)[C@@H](O)[C@H](O)C)[C@H](O[C@@H]3O[C@H](C)[C@@H](O)[C@H](O[C@@H]4O[C@H](C)[C@H](O)[C@H](O[C@@H]5O[C@H](C)[C@@H](O)[C@@](O)(C5)C)C4)C3)C1=O)c2,Plicamycin,Cytotoxic antibiotics and related substances,3.64E-02,0.964,1,0
+DB06788,OC1=N[C@@H](CC1)C(O)=N[C@@H](Cc1[nH]cnc1)C(O)=N[C@@H](Cc1c2c([nH]c1)cccc2)C(O)=N[C@H](C(O)=N[C@@H](Cc1ccc(O)cc1)C(O)=N[C@H](Cc1ncn(c1)Cc1ccccc1)C(O)=N[C@@H](CC(C)C)C(O)=N[C@@H](CCCNC(N)=N)C(=O)N1CCC[C@H]1C(O)=NCC)CO.OC(=O)C.OC(=O)C,Histrelin,Endocrine therapy,1.82E-19,1,1,0
+DB06699,Clc1ccc(cc1)C[C@@H](NC(=O)[C@H](NC(=O)C)Cc1cc2c(cc1)cccc2)C(=O)N[C@H](Cc1cccnc1)C(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(NC(=O)[C@@H]2NC(=O)NC(=O)C2)cc1)C(=O)N[C@H](Cc1ccc(NC(=O)N)cc1)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCNC(C)C)C(=O)N1CCCC1C(=O)N[C@@H](C(=O)N)C)CO,Degarelix,Endocrine therapy,2.40E-12,1,1,0
+DB06616,Clc1cc(Cl)c(OC)cc1Nc1c2cc(OC)c(OCCCN3CCN(CC3)C)cc2ncc1C#N,Bosutinib,Protein kinase inhibitors,1.21E-02,0.988,1,0
+DB06603,OC(=NO)\C=C\c1ccc(cc1)CNCCc1c2c([nH]c1C)cccc2,Panobinostat,Other antineoplastic agents,1.79E-01,0.821,1,0
+DB06589,S(=O)(=O)(N)c1cc(Nc2nc(N(C)c3cc4nn(C)c(c4cc3)C)ccn2)ccc1C,Pazopanib,Protein kinase inhibitors,4.05E-01,0.595,1,0
+DB06287,O1[C@@H](CC(=O)[C@@H](\C=C(/C)\[C@@H](O)[C@@H](OC)C(=O)[C@@H](C[C@@H](\C=C\C=C\C=C(/C)\[C@@H](OC)C[C@H]2O[C@](O)([C@@H](CC2)C)C(=O)C(=O)N2[C@@H](CCCC2)C1=O)C)C)C)[C@@H](C[C@H]1C[C@@H](OC)[C@H](OC(=O)C(CO)(CO)C)CC1)C,Temsirolimus,Protein kinase inhibitors,1.54E-01,0.846,1,0
+DB05812,O[C@@H]1CC2=CC[C@H]3[C@@H]4CC=C([C@]4(CC[C@@H]3[C@]2(CC1)C)C)c1cccnc1,Abiraterone,Endocrine therapy,7.99E-02,0.92,1,0
+DB05294,Brc1cc(F)c(Nc2ncnc3c2cc(OC)c(OCC2CCN(CC2)C)c3)cc1,Vandetanib,Protein kinase inhibitors,1.99E-02,0.98,1,0
+DB05239,Ic1cc(F)c(Nc2c(F)c(F)ccc2C(=O)N2CC(O)(C2)[C@H]2NCCCC2)cc1,Cobimetinib,Protein kinase inhibitors,3.58E-01,0.642,1,0
+DB04868,FC(F)(F)c1cc(NC(=O)c2cc(Nc3nc(ccn3)-c3cccnc3)c(cc2)C)cc(-n2cc(nc2)C)c1,Nilotinib,Protein kinase inhibitors,2.31E-01,0.769,1,0
+DB01590,O1C(CC(=O)[C@@H](\C=C(/C)\[C@@H](O)[C@@H](OC)C(=O)[C@H](C[C@H](\C=C\C=C\C=C(/C)\[C@@H](OC)C[C@@H]2O[C@@](O)([C@H](CC2)C)C(=O)C(=O)N2[C@H](CCCC2)C1=O)C)C)C)[C@H](C[C@H]1C[C@@H](OC)[C@H](OCCO)CC1)C,Everolimus,Protein kinase inhibitors,2.67E-01,0.733,1,0
+DB01268,Fc1cc\2c(NC(=O)/C/2=C\c2[nH]c(C)c(C(=O)NCCN(CC)CC)c2C)cc1,Sunitinib,Protein kinase inhibitors,3.12E-01,0.688,1,0
+DB01259,Clc1cc(Nc2ncnc3c2cc(cc3)-c2oc(cc2)CNCCS(=O)(=O)C)ccc1OCc1cc(F)ccc1,Lapatinib,Protein kinase inhibitors,2.63E-01,0.737,1,0
+DB01254,Clc1cccc(C)c1NC(=O)c1sc(nc1)Nc1nc(nc(N2CCN(CC2)CCO)c1)C,Dasatinib,Protein kinase inhibitors,3.83E-01,0.617,1,0
+DB01196,ClCCN(CCCl)C(Oc1cc2CC[C@H]3[C@@H]4CC[C@H](O)[C@]4(CC[C@@H]3c2cc1)C)=O,Estramustine,Other antineoplastic agents,1.02E-01,0.898,1,0
+DB00970,O1[C@H](C)[C@H](NC(=O)C=2C3=Nc4c(OC3=C(C)C(=O)C=2N)c(ccc4C(=O)N[C@H]2[C@H](OC(=O)[C@@H](N(C)C(=O)CN(C)C(=O)[C@H]3N(CCC3)C(=O)[C@H](NC2=O)C(C)C)C(C)C)C)C)C(=O)N[C@H](C(C)C)C(=O)N2[C@@H](CCC2)C(=O)N(CC(=O)N(C)[C@@H](C(C)C)C1=O)C,Dactinomycin,Cytotoxic antibiotics and related substances,2.99E-03,0.997,1,0
+DB00947,S(=O)(CCCC(F)(F)C(F)(F)F)CCCCCCCCC[C@@H]1Cc2cc(O)ccc2[C@@H]2C1[C@@H]1CC[C@H](O)[C@]1(CC2)C,Fulvestrant,Endocrine therapy,5.67E-02,0.943,1,0
+DB00877,O1[C@@H](CC(=O)[C@@H](\C=C(/C)\[C@@H](O)[C@@H](OC)C(=O)[C@@H](C[C@@H](\C=C\C=C\C=C(/C)\[C@@H](OC)C[C@H]2O[C@](O)([C@@H](CC2)C)C(=O)C(=O)N2[C@@H](CCCC2)C1=O)C)C)C)[C@H](C[C@H]1C[C@@H](OC)[C@H](O)CC1)C,Sirolimus,Protein kinase inhibitors,3.69E-01,0.631,1,0
+DB00675,O(CCN(C)C)c1ccc(cc1)\C(=C(\CC)/c1ccccc1)\c1ccccc1,Tamoxifen,Endocrine therapy,6.09E-03,0.994,1,0
+DB00648,Clc1ccccc1C(C(Cl)Cl)c1ccc(Cl)cc1,Mitotane,Other antineoplastic agents,1.81E-01,0.819,1,0
+DB00619,O=C(Nc1cc(Nc2nc(ccn2)-c2cccnc2)c(cc1)C)c1ccc(cc1)CN1CCN(CC1)C,Imatinib,Protein kinase inhibitors,1.90E-01,0.81,1,0
+DB00539,ClCC\C(=C(\c1ccc(OCCN(C)C)cc1)/c1ccccc1)\c1ccccc1,Toremifene,Endocrine therapy,7.16E-03,0.993,1,0
+DB00530,O(CCOC)c1cc2c(ncnc2Nc2cc(ccc2)C#C)cc1OCCOC,Erlotinib,Protein kinase inhibitors,9.11E-02,0.909,1,0
+DB00482,S(=O)(=O)(N)c1ccc(-n2nc(cc2-c2ccc(cc2)C)C(F)(F)F)cc1,Celecoxib,Other antineoplastic agents,4.21E-01,0.579,1,0
+DB00398,Clc1ccc(NC(=O)Nc2ccc(Oc3cc(ncc3)C(=O)NC)cc2)cc1C(F)(F)F,Sorafenib,Protein kinase inhibitors,4.31E-01,0.569,1,0
+DB00317,Clc1cc(Nc2ncnc3c2cc(OCCCN2CCOCC2)c(OC)c3)ccc1F,Gefitinib,Protein kinase inhibitors,3.76E-02,0.962,1,0
+DB00290,[S+](CCCNC(=O)c1nc(sc1)-c1nc(sc1)CCNC(=O)[C@@H](NC(=O)[C@H]([C@H](O)[C@H](NC(=O)[C@@H](NC(=O)c1nc(nc(N)c1C)[C@@H](NC[C@H](N)C(=O)N)CC(=O)N)[C@@H](OC1OC(CO)C(O)C(O)C1OC1OC(CO)C(O)C(OC(=O)N)C1O)c1[nH]cnc1)C)C)[C@H](O)C)(C)C,Bleomycin,Cytotoxic antibiotics and related substances,1.47E-06,1,1,0
+DB00276,S(=O)(=O)(Nc1cc(OC)c(Nc2c3c(nc4c2cccc4)cccc3)cc1)C,Amsacrine,Other antineoplastic agents,1.61E-01,0.839,1,0
+DB00091,OC1=NC(CC)C(=O)N(CC(=O)N(C)C(CC(C)C)C(O)=NC(C(C)C)C(=O)N(C)C(CC(C)C)C(O)=NC(C)C(O)=NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N(C)C1C(O)C(C\C=C\C)C)C,Cyclosporine,Immunosuppressants,6.53E-02,0.935,1,0
+DB00014,Oc1ccc(cc1)C[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H]1NC(=O)CC1)Cc1[nH]cnc1)Cc1c2c([nH]c1)cccc2)CO)C(=O)N[C@@H](C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N1CCC[C@H]1C(=O)NNC(=O)N)COC(C)(C)C,Goserelin,Endocrine therapy,5.64E-05,1,1,0
