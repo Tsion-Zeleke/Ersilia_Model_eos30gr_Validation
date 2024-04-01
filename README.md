@@ -55,6 +55,29 @@ The repository is organised in folders:
 - Read Ersilia's [documentation](https://ersilia.gitbook.io/ersilia-book)
 - Get inspiration from Ersilia's work, for example on this repository for [data processing](https://github.com/ersilia-os/open-data-cleaning)
 - Use Slack to ask the mentors and the other interns for help!
-
+### 4. 00_eos30gr_model_bias.ipynb
+- [Data Processing](#section-1)
+- [Running Model](#section-2)
+- [Evaluate Prediction](#section-3)
+   - [histograph](#section-3-1)
+   - [basic statistics mean,median...](#section-3-2)
+   - [Threshold Prediction using 0.5 as value](#section-3-3)
+   - [Frequency](#section-3-4)
+   - [Top 10 non HERG Blocker molecules](#section-3-5)
+   - [Top 20 non HERG Blocker molecules](#section-3-6)
+### 4. 01_model_reproducibility.ipynb
+- [deephERG(authers model) Output Cleaning and Calcualtion](#section-1)
+- [eos30gr Output cleaning and calculation](#section-2)
+- [Compare both outputs and visualize analysis](#section-3)
+### 5. 02_external_validation.ipynb
+In this notebook I will try to get the performance of the model on an external dataset I have obtained from ChEMBL [here](https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL1794573/)
+- The dataset contains [Small Molecule Inhibitors of the Human hERG Channel Activity](https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL1794573/)
+- I'll Clean the [dataset](https://www.ebi.ac.uk/chembl/g/#browse/compounds/filter/_metadata.related_assays.all_chembl_ids%3ACHEMBL1794573)
+- Add class to represent hERG blokers
+- Run prediction for the smae smile suing eos30(the model implemented by ersilia)
+- I'll Clean the [dataset](https://www.ebi.ac.uk/chembl/g/#browse/compounds/filter/_metadata.related_assays.all_chembl_ids%3ACHEMBL1794573)
+- Add class to represent hERG blokers
+- Run prediction for the smae smile suing eos30(the model implemented by ersilia)
+- Compare results using several ML performance metrics
 ## License
 All the code in this repository is licensed under a GPLv3 License.
