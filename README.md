@@ -1,4 +1,4 @@
-# model-validation-eos30gr-
+# model-validation
 This is a model validation repository for the Outreachy contributors 2024. 
 
 ## Repository organisation
