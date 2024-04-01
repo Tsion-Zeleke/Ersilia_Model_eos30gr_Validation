@@ -1,4 +1,4 @@
-# model-validation-eos30gr-and-eos9tyg
+# model-validation-eos30gr-
 This is a model validation repository for the Outreachy contributors 2024. 
 
 ## Repository organisation
@@ -65,11 +65,11 @@ The repository is organised in folders:
    - [Frequency](#section-3-4)
    - [Top 10 non HERG Blocker molecules](#section-3-5)
    - [Top 20 non HERG Blocker molecules](#section-3-6)
-### 4. 01_model_reproducibility.ipynb
+### 5. 01_model_reproducibility.ipynb
 - [deephERG(authers model) Output Cleaning and Calcualtion](#section-1)
 - [eos30gr Output cleaning and calculation](#section-2)
 - [Compare both outputs and visualize analysis](#section-3)
-### 5. 02_external_validation.ipynb
+### 6. 02_external_validation.ipynb
 In this notebook I will try to get the performance of the model on an external dataset I have obtained from ChEMBL [here](https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL1794573/)
 - The dataset contains [Small Molecule Inhibitors of the Human hERG Channel Activity](https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL1794573/)
 - I'll Clean the [dataset](https://www.ebi.ac.uk/chembl/g/#browse/compounds/filter/_metadata.related_assays.all_chembl_ids%3ACHEMBL1794573)
